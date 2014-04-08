@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64C40BC118F3E0C7008EF8FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C40BC018F3E0C7008EF8FC /* Foundation.framework */; };
+		64C40BC318F3E0C7008EF8FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C40BC218F3E0C7008EF8FC /* CoreGraphics.framework */; };
+		64C40BC518F3E0C7008EF8FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C40BC418F3E0C7008EF8FC /* UIKit.framework */; };
+		64C40BCB18F3E0C7008EF8FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C40BC918F3E0C7008EF8FC /* InfoPlist.strings */; };
+		64C40BCD18F3E0C7008EF8FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C40BCC18F3E0C7008EF8FC /* main.m */; };
+		64C40BD118F3E0C7008EF8FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C40BD018F3E0C7008EF8FC /* AppDelegate.m */; };
+		64C40BD418F3E0C7008EF8FC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C40BD218F3E0C7008EF8FC /* Main_iPhone.storyboard */; };
+		64C40BD718F3E0C7008EF8FC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C40BD518F3E0C7008EF8FC /* Main_iPad.storyboard */; };
+		64C40BDA18F3E0C7008EF8FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C40BD918F3E0C7008EF8FC /* ViewController.m */; };
+		64C40BDC18F3E0C7008EF8FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C40BDB18F3E0C7008EF8FC /* Images.xcassets */; };
+		64C40BE318F3E0C7008EF8FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C40BE218F3E0C7008EF8FC /* XCTest.framework */; };
+		64C40BE418F3E0C7008EF8FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C40BC018F3E0C7008EF8FC /* Foundation.framework */; };
+		64C40BE518F3E0C7008EF8FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C40BC418F3E0C7008EF8FC /* UIKit.framework */; };
+		64C40BED18F3E0C7008EF8FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C40BEB18F3E0C7008EF8FC /* InfoPlist.strings */; };
+		64C40BEF18F3E0C7008EF8FC /* MultiPeerConnectivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C40BEE18F3E0C7008EF8FC /* MultiPeerConnectivityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64C40BE618F3E0C7008EF8FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C40BB518F3E0C7008EF8FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C40BBC18F3E0C7008EF8FC;
+			remoteInfo = MultiPeerConnectivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64C40BBD18F3E0C7008EF8FC /* MultiPeerConnectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPeerConnectivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C40BC018F3E0C7008EF8FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64C40BC218F3E0C7008EF8FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64C40BC418F3E0C7008EF8FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64C40BC818F3E0C7008EF8FC /* MultiPeerConnectivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiPeerConnectivity-Info.plist"; sourceTree = "<group>"; };
+		64C40BCA18F3E0C7008EF8FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64C40BCC18F3E0C7008EF8FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64C40BCE18F3E0C7008EF8FC /* MultiPeerConnectivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiPeerConnectivity-Prefix.pch"; sourceTree = "<group>"; };
+		64C40BCF18F3E0C7008EF8FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64C40BD018F3E0C7008EF8FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64C40BD318F3E0C7008EF8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		64C40BD618F3E0C7008EF8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		64C40BD818F3E0C7008EF8FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64C40BD918F3E0C7008EF8FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64C40BDB18F3E0C7008EF8FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64C40BE118F3E0C7008EF8FC /* MultiPeerConnectivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiPeerConnectivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C40BE218F3E0C7008EF8FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		64C40BEA18F3E0C7008EF8FC /* MultiPeerConnectivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiPeerConnectivityTests-Info.plist"; sourceTree = "<group>"; };
+		64C40BEC18F3E0C7008EF8FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64C40BEE18F3E0C7008EF8FC /* MultiPeerConnectivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiPeerConnectivityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C40BBA18F3E0C7008EF8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C40BC318F3E0C7008EF8FC /* CoreGraphics.framework in Frameworks */,
+				64C40BC518F3E0C7008EF8FC /* UIKit.framework in Frameworks */,
+				64C40BC118F3E0C7008EF8FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C40BDE18F3E0C7008EF8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C40BE318F3E0C7008EF8FC /* XCTest.framework in Frameworks */,
+				64C40BE518F3E0C7008EF8FC /* UIKit.framework in Frameworks */,
+				64C40BE418F3E0C7008EF8FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64C40BB418F3E0C7008EF8FC = {
+			isa = PBXGroup;
+			children = (
+				64C40BC618F3E0C7008EF8FC /* MultiPeerConnectivity */,
+				64C40BE818F3E0C7008EF8FC /* MultiPeerConnectivityTests */,
+				64C40BBF18F3E0C7008EF8FC /* Frameworks */,
+				64C40BBE18F3E0C7008EF8FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64C40BBE18F3E0C7008EF8FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64C40BBD18F3E0C7008EF8FC /* MultiPeerConnectivity.app */,
+				64C40BE118F3E0C7008EF8FC /* MultiPeerConnectivityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C40BBF18F3E0C7008EF8FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C40BC018F3E0C7008EF8FC /* Foundation.framework */,
+				64C40BC218F3E0C7008EF8FC /* CoreGraphics.framework */,
+				64C40BC418F3E0C7008EF8FC /* UIKit.framework */,
+				64C40BE218F3E0C7008EF8FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64C40BC618F3E0C7008EF8FC /* MultiPeerConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				64C40BCF18F3E0C7008EF8FC /* AppDelegate.h */,
+				64C40BD018F3E0C7008EF8FC /* AppDelegate.m */,
+				64C40BD218F3E0C7008EF8FC /* Main_iPhone.storyboard */,
+				64C40BD518F3E0C7008EF8FC /* Main_iPad.storyboard */,
+				64C40BD818F3E0C7008EF8FC /* ViewController.h */,
+				64C40BD918F3E0C7008EF8FC /* ViewController.m */,
+				64C40BDB18F3E0C7008EF8FC /* Images.xcassets */,
+				64C40BC718F3E0C7008EF8FC /* Supporting Files */,
+			);
+			path = MultiPeerConnectivity;
+			sourceTree = "<group>";
+		};
+		64C40BC718F3E0C7008EF8FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C40BC818F3E0C7008EF8FC /* MultiPeerConnectivity-Info.plist */,
+				64C40BC918F3E0C7008EF8FC /* InfoPlist.strings */,
+				64C40BCC18F3E0C7008EF8FC /* main.m */,
+				64C40BCE18F3E0C7008EF8FC /* MultiPeerConnectivity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64C40BE818F3E0C7008EF8FC /* MultiPeerConnectivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				64C40BEE18F3E0C7008EF8FC /* MultiPeerConnectivityTests.m */,
+				64C40BE918F3E0C7008EF8FC /* Supporting Files */,
+			);
+			path = MultiPeerConnectivityTests;
+			sourceTree = "<group>";
+		};
+		64C40BE918F3E0C7008EF8FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C40BEA18F3E0C7008EF8FC /* MultiPeerConnectivityTests-Info.plist */,
+				64C40BEB18F3E0C7008EF8FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64C40BBC18F3E0C7008EF8FC /* MultiPeerConnectivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C40BF218F3E0C7008EF8FC /* Build configuration list for PBXNativeTarget "MultiPeerConnectivity" */;
+			buildPhases = (
+				64C40BB918F3E0C7008EF8FC /* Sources */,
+				64C40BBA18F3E0C7008EF8FC /* Frameworks */,
+				64C40BBB18F3E0C7008EF8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiPeerConnectivity;
+			productName = MultiPeerConnectivity;
+			productReference = 64C40BBD18F3E0C7008EF8FC /* MultiPeerConnectivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64C40BE018F3E0C7008EF8FC /* MultiPeerConnectivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C40BF518F3E0C7008EF8FC /* Build configuration list for PBXNativeTarget "MultiPeerConnectivityTests" */;
+			buildPhases = (
+				64C40BDD18F3E0C7008EF8FC /* Sources */,
+				64C40BDE18F3E0C7008EF8FC /* Frameworks */,
+				64C40BDF18F3E0C7008EF8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C40BE718F3E0C7008EF8FC /* PBXTargetDependency */,
+			);
+			name = MultiPeerConnectivityTests;
+			productName = MultiPeerConnectivityTests;
+			productReference = 64C40BE118F3E0C7008EF8FC /* MultiPeerConnectivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64C40BB518F3E0C7008EF8FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Huang XiaoWen";
+				TargetAttributes = {
+					64C40BE018F3E0C7008EF8FC = {
+						TestTargetID = 64C40BBC18F3E0C7008EF8FC;
+					};
+				};
+			};
+			buildConfigurationList = 64C40BB818F3E0C7008EF8FC /* Build configuration list for PBXProject "MultiPeerConnectivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64C40BB418F3E0C7008EF8FC;
+			productRefGroup = 64C40BBE18F3E0C7008EF8FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C40BBC18F3E0C7008EF8FC /* MultiPeerConnectivity */,
+				64C40BE018F3E0C7008EF8FC /* MultiPeerConnectivityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64C40BBB18F3E0C7008EF8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C40BD718F3E0C7008EF8FC /* Main_iPad.storyboard in Resources */,
+				64C40BDC18F3E0C7008EF8FC /* Images.xcassets in Resources */,
+				64C40BD418F3E0C7008EF8FC /* Main_iPhone.storyboard in Resources */,
+				64C40BCB18F3E0C7008EF8FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C40BDF18F3E0C7008EF8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C40BED18F3E0C7008EF8FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C40BB918F3E0C7008EF8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C40BDA18F3E0C7008EF8FC /* ViewController.m in Sources */,
+				64C40BD118F3E0C7008EF8FC /* AppDelegate.m in Sources */,
+				64C40BCD18F3E0C7008EF8FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C40BDD18F3E0C7008EF8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C40BEF18F3E0C7008EF8FC /* MultiPeerConnectivityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64C40BE718F3E0C7008EF8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C40BBC18F3E0C7008EF8FC /* MultiPeerConnectivity */;
+			targetProxy = 64C40BE618F3E0C7008EF8FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64C40BC918F3E0C7008EF8FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C40BCA18F3E0C7008EF8FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64C40BD218F3E0C7008EF8FC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C40BD318F3E0C7008EF8FC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		64C40BD518F3E0C7008EF8FC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C40BD618F3E0C7008EF8FC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		64C40BEB18F3E0C7008EF8FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C40BEC18F3E0C7008EF8FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64C40BF018F3E0C7008EF8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C40BF118F3E0C7008EF8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C40BF318F3E0C7008EF8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiPeerConnectivity/MultiPeerConnectivity-Prefix.pch";
+				INFOPLIST_FILE = "MultiPeerConnectivity/MultiPeerConnectivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64C40BF418F3E0C7008EF8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiPeerConnectivity/MultiPeerConnectivity-Prefix.pch";
+				INFOPLIST_FILE = "MultiPeerConnectivity/MultiPeerConnectivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64C40BF618F3E0C7008EF8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiPeerConnectivity.app/MultiPeerConnectivity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiPeerConnectivity/MultiPeerConnectivity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiPeerConnectivityTests/MultiPeerConnectivityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		64C40BF718F3E0C7008EF8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiPeerConnectivity.app/MultiPeerConnectivity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiPeerConnectivity/MultiPeerConnectivity-Prefix.pch";
+				INFOPLIST_FILE = "MultiPeerConnectivityTests/MultiPeerConnectivityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C40BB818F3E0C7008EF8FC /* Build configuration list for PBXProject "MultiPeerConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C40BF018F3E0C7008EF8FC /* Debug */,
+				64C40BF118F3E0C7008EF8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C40BF218F3E0C7008EF8FC /* Build configuration list for PBXNativeTarget "MultiPeerConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C40BF318F3E0C7008EF8FC /* Debug */,
+				64C40BF418F3E0C7008EF8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64C40BF518F3E0C7008EF8FC /* Build configuration list for PBXNativeTarget "MultiPeerConnectivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C40BF618F3E0C7008EF8FC /* Debug */,
+				64C40BF718F3E0C7008EF8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64C40BB518F3E0C7008EF8FC /* Project object */;
+}
