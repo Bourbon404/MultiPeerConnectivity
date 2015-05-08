@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MultipeerConnectivity/MultipeerConnectivity.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MCSessionDelegate,MCBrowserViewControllerDelegate>{
+    
+}
+
+#pragma mark- 消息事件
+-(IBAction)serverValueChange:(id)sender;
+-(IBAction)clientStart:(id)sender;
+-(IBAction)clientStop:(id)sender;
+
 
 @end
